@@ -15,7 +15,7 @@ export async function DELETE(
   await startDb()
 
   try {
-    const qna = await Qna.findByIdAndDelete(id)
+    const qna = (await Qna.findByIdAndDelete(id)) as any
 
     await Subject.updateOne(
       { _id: qna._subjectId },
