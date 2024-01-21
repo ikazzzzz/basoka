@@ -50,7 +50,7 @@ export default function SubjectCard({
                 <span className="text-soft-color">{subject.code} </span>
                 <span className="text-soft-color">
                   -{" "}
-                  {subject.semester === Semester.PILIHAN
+                  {subject.semester === Semester.SEMESTER_1
                     ? "Matkul"
                     : "Semester"}{" "}
                   {subject.semester}
@@ -112,7 +112,7 @@ export default function SubjectCard({
                 <span className="text-soft-color">{subject.code} </span>
                 <span className="text-soft-color">
                   -{" "}
-                  {subject.semester === Semester.PILIHAN
+                  {subject.semester === Semester.SEMESTER_1
                     ? "Matkul"
                     : "Semester"}{" "}
                   {subject.semester}
