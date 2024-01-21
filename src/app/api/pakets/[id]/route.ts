@@ -67,7 +67,7 @@ export async function DELETE(
   await startDb()
 
   try {
-    const paket = await Paket.findByIdAndDelete(id)
+    const paket = (await Paket.findByIdAndDelete(id)) as any
 
     const qna = await Qna.find({ _paketId: id })
     await Qna.deleteMany({ _paketId: id })
