@@ -12,9 +12,9 @@ export default function Banner({ followedSubjectCount }: Props) {
     <div className="bg-card-gradient shadow-xl w-full rounded-xl p-16 flex justify-between items-center md:flex-col md:p-8 sm:flex-col sm:p-8">
       <div>
         <div>
-          <p className="text-slate-200 font-semibold text-lg">Basoin</p>
+          <p className="text-slate-200 font-semibold text-lg">Basoka</p>
           <h1 className="text-4xl font-bold text-white">
-            Bank Soal Informatika
+            Bank Soal Keamanan Siber
           </h1>
         </div>
         <div className="flex mt-8 items-center gap-2 sm:flex-col">
