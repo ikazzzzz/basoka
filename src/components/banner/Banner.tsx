@@ -13,7 +13,7 @@ export default function Banner({ followedSubjectCount }: Props) {
       <div>
         <div>
           <p className="text-slate-200 font-semibold text-lg">Basoka</p>
-          <h1 className="text-4xl font-bold text-white">
+          <h1 className="text-3xl font-bold text-white">
             Bank Soal Keamanan Siber
           </h1>
         </div>
