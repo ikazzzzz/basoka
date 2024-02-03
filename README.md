@@ -1,5 +1,5 @@
 # BASOKA (Bank Soal Keamanan Siber)
-Project Ujian Akhir Semeseter Mata Kuliah Keamanan Aplikasi
+Project Ujian Akhir Semester Mata Kuliah Keamanan Aplikasi
 by Kelompok 2:
 * Aisyah Rachmawati
 * Andy Wahyu Mardiansyah
